@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h2>{{ user_profile.name }}</h2>
+    <h4>{{ user_profile.email }}</h4>
+    <h4>{{ user_profile.phone }}</h4>
+    <br>
+    <hr>
+    <br>
+    <b><p>About me</p></b>
+    <p>{{ user_profile.summary }}</p>
+    <hr>
+    <b><p>Skills</p></b>
+    <p>{{ user_profile.skills }}</p>
+    <hr>
+    <b><p>Education</p></b>
+    <ul>
+      <li>Schooling: {{ user_profile.school }}</li>
+      <li>Graduated {{ user_profile.university }} with {{ user_profile.degree }} degree</li>
+    </ul>
+    <hr>
+    <b><p>Previous work</p></b>
+    <p>{{ user_profile.previous_work }}</p>
+    <br>
+    <hr>
+    <hr>
+    <hr>
+  </body>
+</html>
